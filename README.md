@@ -183,7 +183,8 @@ def calculate_taus(data_groups, mus, sigmas, tau_type):
 - **fused_likelihood** : Defines the fused likelihood function to be minimized during optimization.
 
 ```python
-def fused_likelihood(params, data_groups, max_clone_label, p, weights, roots, lambda_, gamma, tau_type, taus):
+def fused_likelihood(params, data_groups, max_clone_label, p, weights,
+                             roots, lambda_, gamma, tau_type, taus):
     # Code for fused likelihood
     return -likelihood_sum + total_penalty
 ```
